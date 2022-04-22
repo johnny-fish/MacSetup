@@ -1,8 +1,11 @@
 # General
 
-- Autocomplete: [fig](https://github.com/withfig/autocomplete)
+- Autocomplete:
 
+[fig](https://github.com/withfig/autocomplete)
 install it and run `fig` on terminal to finish the installation
+
+[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) install before oh-my-zsh
 
 # Mac Os System Setting
 

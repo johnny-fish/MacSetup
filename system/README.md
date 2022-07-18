@@ -9,6 +9,10 @@ install it and run `fig` on terminal to finish the installation
 
 # Mac Os System Setting
 
+Disable to create .DS_Store file on extern disk:
+
+`defaults write com.apple.desktopservices DSDontWriteNetworkStores true`
+
 ### MacOS with M1
 
 - `arch -arm64` tell explicitly to install using __arm__ architecture  

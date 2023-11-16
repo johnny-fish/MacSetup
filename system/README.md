@@ -1,11 +1,46 @@
 # General
 
+- Terminal
+
+[iTerm2](https://iterm2.com/) for terminal App
+
+[oh-my-zsh](https://ohmyz.sh/) for zsh
+
 - Autocomplete:
 
 [fig](https://github.com/withfig/autocomplete)
 install it and run `fig` on terminal to finish the installation
 
-[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) install before oh-my-zsh
+[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) is a plugin of `oh-my-zsh` need to be clone in `$ZSH_CUSTOM/plugins/`
+
+- SSH Key
+
+In `~/.ssh/`:
+
+`id_ed25519` default key
+
+`id_ed25519_personal` personal key
+
+- Git
+
+GitConfig
+
+`~/.gitconfig`
+```
+[user]
+    name = xxx XXX
+    email = xxx@xxx.com
+[includeIf "gitdir:~/to_personal_path/"]
+    path = ~/.gitconfig_personal
+```
+`~/.gitconfig_personal`
+```
+[user]
+    name = xxx XXX
+    email = xxx@xxx.com
+[code]
+    sshCommand = "ssh -i ~/.ssh/id_ed25519_personal"
+```
 
 # Mac Os System Setting
 

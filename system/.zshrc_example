@@ -31,6 +31,7 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
+#tools
 alias changelog="git log --oneline --pretty='%Cred%h%Creset - %s %C(bold blue)<%aN>%Creset'"
 
 # Fig post block. Keep at the bottom of this file.
